@@ -86,4 +86,9 @@ a:active {
   justify-self: end;
   /* border: 10px solid red; */
   margin-top: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  justify-content: center;
 }
+
