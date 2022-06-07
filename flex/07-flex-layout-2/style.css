@@ -28,6 +28,9 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+
+  padding: 32px;
+  width: 200px;
 }
 
 .content{
@@ -40,4 +43,11 @@ body {
   min-width: 300px;
   width :300px;
   display: flex;
+}
+
+.card-holder{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  margin: 32px;
 }
