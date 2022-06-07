@@ -73,3 +73,9 @@ a:hover {
 a:active {
   color: blue;
 }
+
+.header{
+  display:flex;
+  justify-content: space-between;
+  padding: 10px;
+}
