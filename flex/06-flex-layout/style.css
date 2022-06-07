@@ -19,6 +19,8 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+  font-weight: 700;
 }
 
 input {
@@ -92,3 +94,9 @@ a:active {
   justify-content: center;
 }
 
+.buttons{
+  display:flex;
+  /* border: 2px solid red; */
+  justify-content: center;
+  gap: 10px
+}
