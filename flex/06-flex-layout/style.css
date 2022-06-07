@@ -31,18 +31,45 @@ input {
 .footer{
   display:flex;
   justify-content: space-between;
-  background-color: gray;
-  padding: 2px;
+  background-color: #eeeeee;
+  padding: 10px;
   margin-top:auto; 
 }
 
 .left-links, 
 .right-links {
   display:flex;
-  gap: 8px;
+  gap: 16px;
+  margin-left: -30px;
+  margin-right: 10px;
 }
 
 ul, 
 ol{
   list-style:none;
+}
+
+a{
+  text-decoration: none;
+
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
