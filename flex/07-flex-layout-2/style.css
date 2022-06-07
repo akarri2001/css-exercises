@@ -45,7 +45,6 @@ body {
 .sidebar{
   min-width: 300px;
   width :300px;
-  display: flex;
 }
 
 .card-holder{
@@ -53,4 +52,19 @@ body {
   flex-wrap: wrap;
   gap: 32px;
   margin: 32px;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  margin-left: -20px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
 }
